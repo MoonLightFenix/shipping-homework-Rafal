@@ -27,6 +27,12 @@ public final class ShippingCalculator {
             "2021-07-22 S LP",
             "2021-07-23 L DH");
 
+    /**
+     * For this task you have to implement getPrice method of PriceCalculator class.
+     * Transactions are already loaded and stored in TRANSACTIONS variable.
+     * Each is already passed to the PriceCalculator and response is printed out.
+     * There is also one test written PriceCalculatorTest.
+     */
     public static void main(String[] args) {
         final PriceCalculator priceCalculator = new PriceCalculator();
         for (String transaction : TRANSACTIONS) {
